@@ -13,7 +13,7 @@ public class AverageCalculator {
         for (int number : numbers) {
             sum += number;
         }
-        //Return the average by dividing the sum by the nmbr of elements
+        //Return the average by dividing the sum by the number of elements
 
         return (double)sum/numbers.length;
     }
@@ -44,7 +44,7 @@ public class AverageCalculator {
 //        double average = calculateAverage(numbers);//throws null pointer exception
 
         //Introduce an array index out of bounds exception
-//        //Exception occurs at line 31
+//        // occurs at line 31
 //        for (int i = 0; i < numbers.length; i++) {
 //            sum += numbers[i];  // Will throw ArrayIndexOutOfBoundsException
 
